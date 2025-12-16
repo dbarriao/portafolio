@@ -1,0 +1,60 @@
+:root {
+    --bg-main: #fffaf6;
+    --pink: #f6c1cc;
+    --mint: #cde8e5;
+    --lavender: #e6d9ff;
+    --text-dark: #4a4a4a;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg-main);
+    color: var(--text-dark);
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: var(--pink);
+}
+
+/* HERO */
+#hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(180deg, var(--pink), var(--bg-main));
+}
+
+.hero-card {
+    background: white;
+    border-radius: 25px;
+    padding: 40px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* PROYECTOS */
+.project-card {
+    border: none;
+    border-radius: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 20px rgba(0,0,0,0.15);
+}
+
+/* HABILIDADES */
+.skill {
+        background: var(--lavender);
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* FOOTER */
+footer {
+    background: var(--mint);
+    padding: 20px 0;
+}

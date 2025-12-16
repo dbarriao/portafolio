@@ -2,6 +2,11 @@ body{
     margin: 10px;
     padding: 10px;
 }
+.navbar {
+  background-color: #337ab7; /* Un azul */
+
+}
+
 .card {
     width: 50%;
     transition: transform .2s;
